@@ -1,0 +1,1 @@
+this data is from the app.js file[{"name":"abc","role":"gunner"},{"name":"yuri","role":"medic"},{"name":"price","role":"engg"}]
