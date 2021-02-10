@@ -43,7 +43,7 @@ first("break")
 new Promise(function (resolve, reject) {
   setTimeout(() => resolve(1), 1000); // (*)
 
-  setTimeout(() => reject("process stopped"), 900); // process stopped
+  setTimeout(() => reject("process stopped"), 999); // process stopped
 })
   .then(function (result) {
     console.log(result); // 1
